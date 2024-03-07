@@ -1,0 +1,101 @@
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1.2em;
+}
+
+
+
+.header-container {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+
+.header-container h1 {
+  font-size: 3em;
+  color: #333;
+}
+
+.header-container p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.header-container button {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header-container button:hover {
+  background-color: #e84545;
+}
+
+.content-section {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.comics-section .comics-container {
+  text-align: center;
+}
+
+.comics-section h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+.comics-section p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.manga-section .manga-container {
+  text-align: center;
+}
+
+.manga-section h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+.manga-section p {
+  font-size: 1.2em;
+  color: #666;
+}
+
