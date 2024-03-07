@@ -83,9 +83,9 @@ body {
   padding: 50px 0;
 }
 
-.comics-section .comics-container,
-.manga-section .manga-container,
-.about-section .about-container {
+.comics-section ,
+.manga-section ,
+.about-section  {
   width: 100%;
   height: auto;
   text-align: center;
@@ -96,6 +96,11 @@ body {
   width:220px;
   height:auto;
 }
+.manga-container{  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  width:220px;
+  height:auto;}
+
 .comics-section h2,
 .manga-section h2,
 .about-section h2 {
@@ -109,6 +114,8 @@ body {
   font-size: 1.1em;
   color: #666;
 }
+
+.about-container{}
 
 .about-section .learn-more-btn {
   padding: 10px 20px;
