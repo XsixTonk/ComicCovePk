@@ -62,7 +62,7 @@ body {
   background-image: url(./Img/Comiccove.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  width:1280px;
+  width:100%;
   height: 700px;
 }
 
