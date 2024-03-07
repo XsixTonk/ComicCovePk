@@ -139,13 +139,13 @@ body {
 }
 
 
-.footer-container {
+.footer-container a{
   width: 100%;
   height: auto;
   background-image: url(./Img/footerback.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   align-text:center;
-  color:black
+  color:white;
 }
 
