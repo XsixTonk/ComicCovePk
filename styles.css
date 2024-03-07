@@ -163,3 +163,54 @@ body {
 .footer-container a:hover {
   text-decoration: underline; /* Add underline on hover */
 }
+@media screen and (min-width: 280px) and (max-width: 914px) {
+  .navbar {
+    padding: 5px 0; /* Adjust padding for smaller screens */
+  }
+
+  .logo a {
+    font-size: 1.2em; /* Adjust font size for smaller screens */
+  }
+
+  .nav-links li a {
+    font-size: 1em; /* Adjust font size for smaller screens */
+    margin-left: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .header-container {
+    height: 500px; /* Adjust height for smaller screens */
+  }
+
+  .hero-container,
+  .content-section {
+    padding: 20px 0; /* Adjust padding for smaller screens */
+  }
+
+  .comics-container img,
+  .manga-container {
+    width: 150px; /* Adjust width for smaller screens */
+  }
+
+  .comics-section h2,
+  .manga-section h2,
+  .about-section h2 {
+    font-size: 1.2em; /* Adjust font size for smaller screens */
+  }
+
+  .comics-section p,
+  .manga-section p,
+  .about-section p {
+    font-size: 1em; /* Adjust font size for smaller screens */
+  }
+
+  #hero-button,
+  #learn-button {
+    bottom: 10px; /* Adjust distance from the bottom for smaller screens */
+  }
+
+  .learn-more-btn,
+  #explore-btn {
+    font-size: 1em; /* Adjust font size for smaller screens */
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+  }
+}
