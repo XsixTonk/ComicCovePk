@@ -139,7 +139,7 @@ body {
 }
 
 
-.footer-container a {
+.footer-container p a {
   display: block; /* Ensures the <a> tag behaves like a block element */
   width: 100%;
   height: 100%; /* Ensures the <a> tag takes up the full height of its parent */
