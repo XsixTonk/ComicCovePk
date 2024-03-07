@@ -12,20 +12,13 @@ body {
   font-style: normal;
   color: black;
   /* Gradient background */
-  background-color: linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* Standard syntax */
-              -webkit-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* For webkit (Safari, Chrome) */
-              -moz-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* For Mozilla Firefox */
-              -o-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD); /* For Opera */
+  background: linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD);
 }
 
 .navbar {
-  background-color: linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* Standard syntax */
-              -webkit-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* For webkit (Safari, Chrome) */
-              -moz-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* For Mozilla Firefox */
-              -o-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD); /* For Opera */
+  background-color: #333;
   color: #fff;
   padding: 10px 0;
-  width
 }
 
 .container {
@@ -57,21 +50,19 @@ body {
   font-size: 1.2em;
 }
 
-.hero-container{
-  width:100%
-  margin:5px;
-  height:auto;
-}
-  
-  
-.header-container {
-  text-align: center;
-  padding: 50px 0
-  background-image:url(./Img/Comiccove.jpg );
-  background-size:contain;
-  background-repeat:no-repeat;
+.hero-container {
+  width: 100%;
+  margin: 5px;
+  height: auto;
 }
 
+.header-container {
+  text-align: center;
+  padding: 50px 0;
+  background-image: url(./Img/Comiccove.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 .header-container button {
   padding: 10px 20px;
@@ -93,8 +84,8 @@ body {
 .comics-section .comics-container,
 .manga-section .manga-container,
 .about-section .about-container {
-    width:100%;
-    height:auto;
+  width: 100%;
+  height: auto;
   text-align: center;
 }
 
@@ -132,4 +123,8 @@ body {
   background-color: #333;
   color: #fff;
   padding: 20px 0;
+  width:100%;
+  height:auto;
+  
 }
+
