@@ -186,7 +186,7 @@ body {
   .header-container {
     height: 400px; /* Adjust height for smaller screens */
     width:100%;
-    Object-fit:cover;
+   background-size: 100% 100%; /* Adjust background size to cover the container */
     background-repeat: no-repeat;
   }
 
