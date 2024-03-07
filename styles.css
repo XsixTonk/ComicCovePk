@@ -127,6 +127,12 @@ body {
   padding: 20px 0;
   width:100%;
   height:auto;
+}
+.footer container{
+   width:100%;
+  height:auto;
   background-image: url(./Img/footerback.jpg)
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
