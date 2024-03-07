@@ -12,12 +12,15 @@ body {
   font-style: normal;
   color: black;
   /* Gradient background */
-  background: linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* Standard syntax */
+  background-color: linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* Standard syntax */
               -webkit-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* For webkit (Safari, Chrome) */
               -moz-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* For Mozilla Firefox */
               -o-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD); /* For Opera */
 }
-
+header{
+  width:100%;
+  height:auto;
+}
 .navbar {
   background: linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* Standard syntax */
               -webkit-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* For webkit (Safari, Chrome) */
@@ -56,6 +59,13 @@ body {
   font-size: 1.2em;
 }
 
+.hero-container{
+  width:100%
+  margin:5px;
+  height:auto;
+}
+  
+  
 .header-container {
   text-align: center;
   padding: 50px 0;
