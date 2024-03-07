@@ -18,8 +18,8 @@ body {
               -o-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD); /* For Opera */
 }
 
-header.navbar {
-  background: linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* Standard syntax */
+.navbar {
+  background-color: linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* Standard syntax */
               -webkit-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* For webkit (Safari, Chrome) */
               -moz-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* For Mozilla Firefox */
               -o-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD); /* For Opera */
