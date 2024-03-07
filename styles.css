@@ -132,19 +132,6 @@ body {
 
 .learn-more-btn  {
   padding: 10px 20px;
-  background-color: #ff6f61;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.learn-more-btn:hover{
-  background-color: #e84545;
-}
-
-.about-section {
-  padding: 10px 20px;
   font-size: 1.1em;
   background-color: #ff6f61;
   color: #fff;
@@ -154,7 +141,7 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.about-section  {
+.learn-more-btn:hover{
   background-color: #e84545;
 }
 
