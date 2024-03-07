@@ -1,24 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
 
-
-*{margin:0;
-  padding:0;
-  box-sizing:border-box;
- }
-
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Rowdies", sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: black; /* Set the desired text color here */
-  background: 
-    linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* Standard syntax */
-    -webkit-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* For webkit (Safari, Chrome) */
-    -moz-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* For Mozilla Firefox */
-    -o-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD); /* For Opera */
+  color: black;
+  /* Gradient background */
+  background: linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* Standard syntax */
+              -webkit-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* For webkit (Safari, Chrome) */
+              -moz-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD), /* For Mozilla Firefox */
+              -o-linear-gradient(90deg, #FFD700, #FFC300, #FFF8DC, #FFEBCD); /* For Opera */
 }
+
 .navbar {
   background-color: #333;
   color: #fff;
@@ -53,8 +52,6 @@ body {
   margin-left: 20px;
   font-size: 1.2em;
 }
-
-
 
 .header-container {
   text-align: center;
@@ -92,31 +89,44 @@ body {
   background-color: #fff;
 }
 
-.comics-section .comics-container {
+.comics-section .comics-container,
+.manga-section .manga-container,
+.about-section .about-container {
   text-align: center;
 }
 
-.comics-section h2 {
+.comics-section h2,
+.manga-section h2,
+.about-section h2 {
   font-size: 2em;
   color: #333;
 }
 
-.comics-section p {
+.comics-section p,
+.manga-section p,
+.about-section p {
   font-size: 1.2em;
   color: #666;
 }
 
-.manga-section .manga-container {
+.about-section .learn-more-btn {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.about-section .learn-more-btn:hover {
+  background-color: #e84545;
+}
+
+.footer {
   text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
 }
-
-.manga-section h2 {
-  font-size: 2em;
-  color: #333;
-}
-
-.manga-section p {
-  font-size: 1.2em;
-  color: #666;
-}
-
