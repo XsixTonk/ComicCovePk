@@ -57,7 +57,7 @@ body {
 }
 
 .header-container {
-  text-align: center;
+  position: relative;
   padding: 50px 0;
   background-image: url(./Img/Comiccove.jpg);
   background-size: cover;
