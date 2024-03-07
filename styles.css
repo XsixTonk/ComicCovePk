@@ -90,9 +90,11 @@ body {
   height: auto;
   text-align: center;
 }
-.comics-container{
+.comics-container img{
   display:grid;
   grid-template-columns:repeat(2,1fr);
+  width:220px;
+  height:auto;
 }
 .comics-section h2,
 .manga-section h2,
