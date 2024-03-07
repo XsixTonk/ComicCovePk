@@ -59,18 +59,9 @@ body {
   background-color: #f4f4f4;
   width:100%;
   height:auto;
-  background-image:url();
+  background-image:url(./Img/Comiccove.jpg );
 }
 
-.header-container h1 {
-  font-size: 3em;
-  color: #333;
-}
-
-.header-container p {
-  font-size: 1.2em;
-  color: #666;
-}
 
 .header-container button {
   padding: 10px 20px;
