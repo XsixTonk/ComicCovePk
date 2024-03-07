@@ -139,13 +139,13 @@ body {
 }
 
 
-.footer-container a{
+.footer-container a {
+  display: block; /* Ensures the <a> tag behaves like a block element */
   width: 100%;
-  height: auto;
+  height: 100%; /* Ensures the <a> tag takes up the full height of its parent */
   background-image: url(./Img/footerback.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  align-text:center;
-  color:white;
+  text-align: center; /* Correct property name for centering text */
+  color: white;
 }
-
