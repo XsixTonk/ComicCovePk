@@ -176,9 +176,8 @@ body {
     font-size: 1em; /* Adjust font size for smaller screens */
     margin-left: 10px; /* Adjust margin for smaller screens */
   }
-   .hero-container,
-  .content-section {
-    padding: 20px 0; /* Adjust padding for smaller screens */
+   .hero-container
+  {
     width:100%;
     height:auto;
   }
