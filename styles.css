@@ -179,6 +179,8 @@ body {
 
   .header-container {
     height: 500px; /* Adjust height for smaller screens */
+     background-size: cover;
+     background-repeat: no-repeat;
   }
 
   .hero-container,
@@ -213,4 +215,6 @@ body {
     font-size: 1em; /* Adjust font size for smaller screens */
     padding: 8px 16px; /* Adjust padding for smaller screens */
   }
+
+  /* Additional styles specific to smaller screens can be added here */
 }
