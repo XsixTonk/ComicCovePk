@@ -180,14 +180,15 @@ body {
   .content-section {
     padding: 20px 0; /* Adjust padding for smaller screens */
     width:100%;
+    height:auto;
   }
 
 
   .header-container {
-    height: auto; /* Adjust height for smaller screens */
+    height: 400px; /* Adjust height for smaller screens */
     width:100%;
-     Object-fit:cover;
-     background-repeat: no-repeat;
+    Object-fit:cover;
+    background-repeat: no-repeat;
   }
 
 
