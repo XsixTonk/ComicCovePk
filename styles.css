@@ -123,7 +123,27 @@ body {
 
 .about-container{}
 
-.about-section .learn-more-btn {
+#learn-button {
+  position: absolute; /* Set the hero button as absolute */
+  bottom: 20px; /* Adjust the distance from the bottom */
+  left: 50%; /* Center the button horizontally */
+  transform: translateX(-50%); /* Center the button horizontally */
+}
+
+.learn-more-btn  {
+  padding: 10px 20px;
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover{
+  background-color: #e84545;
+}
+
+.about-section {
   padding: 10px 20px;
   font-size: 1.1em;
   background-color: #ff6f61;
@@ -134,7 +154,7 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.about-section .learn-more-btn:hover {
+.about-section  {
   background-color: #e84545;
 }
 
