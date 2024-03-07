@@ -60,8 +60,9 @@ body {
   text-align: center;
   padding: 50px 0;
   background-image: url(./Img/Comiccove.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  width:100%;
 }
 
 .header-container button {
