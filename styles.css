@@ -184,7 +184,7 @@ body {
 
 
   .header-container {
-    height: 500px; /* Adjust height for smaller screens */
+    height: auto; /* Adjust height for smaller screens */
     width:100%;
      Object-fit:contain;
      background-repeat: no-repeat;
