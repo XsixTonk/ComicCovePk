@@ -176,17 +176,19 @@ body {
     font-size: 1em; /* Adjust font size for smaller screens */
     margin-left: 10px; /* Adjust margin for smaller screens */
   }
+   .hero-container,
+  .content-section {
+    padding: 20px 0; /* Adjust padding for smaller screens */
+    width:100%;
+  }
+
 
   .header-container {
     height: 500px; /* Adjust height for smaller screens */
-     background-size: cover;
+     Object-fit:cover;
      background-repeat: no-repeat;
   }
 
-  .hero-container,
-  .content-section {
-    padding: 20px 0; /* Adjust padding for smaller screens */
-  }
 
   .comics-container img,
   .manga-container {
