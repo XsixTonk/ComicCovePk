@@ -268,7 +268,7 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   display:grid;
-  grid-template-columns: repeat(2,180px); /* Adjust the widths as needed */
+  grid-template-columns: repeat(2,210px); /* Adjust the widths as needed */
 }
 
 
