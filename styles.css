@@ -41,6 +41,7 @@ body {
 
 .nav-links li {
   display: inline;
+  align-items:center;
 }
 
 .nav-links li a {
@@ -161,7 +162,7 @@ body {
   text-decoration: none; /* Remove default underline */
 }
 
-.container {
+#container {
   max-width: 100%;
   max-height:auto;
   margin: 0 auto;
@@ -219,8 +220,7 @@ body {
     font-size: 1em; /* Adjust font size for smaller screens */
     margin-left: 10px; /* Adjust margin for smaller screens */
   }
-   .hero-container
-  {
+  .hero-container{
     width:100%;
     height:auto;
   }
@@ -262,11 +262,11 @@ body {
     padding: 8px 16px; /* Adjust padding for smaller screens */
   }
   
-.container{
+#container{
   max-width: 100%;
   max-height:auto;
   display:grid;
-  grid-template-columns: repeat(2,220px); /* Adjust the widths as needed */
+  grid-template-columns: repeat(2,290px); /* Adjust the widths as needed */
 }
 
 
