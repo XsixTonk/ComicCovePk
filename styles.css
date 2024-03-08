@@ -160,6 +160,34 @@ body {
   text-decoration: none; /* Remove default underline */
 }
 
+.comic-cards {
+  display: grid;
+  grid-template-columns: 5fr 1fr; /* Adjust the widths as needed */
+  gap: 20px; /* Adjust the gap between grid items */
+}
+
+.comic-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.comic-cover img {
+  width: 100%;
+  height: auto;
+}
+
+.comic-title {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.comic-description {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
 .footer-container a:hover {
   text-decoration: underline; /* Add underline on hover */
 }
