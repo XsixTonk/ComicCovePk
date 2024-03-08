@@ -292,6 +292,7 @@ navbar {
   max-height:auto;
   display:grid;
   grid-template-columns: repeat(2,1fr); /* Adjust the widths as needed */
+  margin-bottom:20px;
 }
 
 
@@ -307,8 +308,8 @@ navbar {
   background-color: #f9f9f9;
   border-radius: 10px;
   overflow: hidden;
-  height:400px;
-  width:200px;
+  height:500px;
+  width:190px;
 }
 
 .comic-cover img {
