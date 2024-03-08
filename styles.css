@@ -260,8 +260,8 @@ body {
     font-size: 1em; /* Adjust font size for smaller screens */
     padding: 8px 16px; /* Adjust padding for smaller screens */
   }
-
-    max-width: 100%;
+.container{
+  max-width: 100%;
   max-height:auto;
   margin: 0 auto;
   padding: 0 20px;
@@ -282,8 +282,8 @@ body {
   background-color: #f9f9f9;
   border-radius: 10px;
   overflow: hidden;
-  width:200px;
-  height:100px;
+  width:220px;
+  height:150px;
 }
 
 .comic-cover img {
