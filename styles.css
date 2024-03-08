@@ -246,6 +246,10 @@ body {
     font-size: 1em; /* Adjust font size for smaller screens */
     padding: 8px 16px; /* Adjust padding for smaller screens */
   }
+  .comic-cards {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Display three columns */
+    gap: 20px; /* Adjust the gap between grid items */
+  }
 
   /* Additional styles specific to smaller screens can be added here */
 }
