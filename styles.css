@@ -234,14 +234,15 @@ navbar {
 
 .nav-links li {
   display: inline;
-  align-items:center;
 }
 
 .nav-links li a {
   color: #fff;
   text-decoration: none;
   margin-left: 20px;
-  font-size: 1.2em;
+  font-size: 0.7em;
+  align-items:center;
+  justify-content:center;
 }
 
   .hero-container{
@@ -290,7 +291,7 @@ navbar {
   max-width: 100%;
   max-height:auto;
   display:grid;
-  grid-template-columns: repeat(2,290px); /* Adjust the widths as needed */
+  grid-template-columns: repeat(2,1fr); /* Adjust the widths as needed */
 }
 
 
@@ -306,7 +307,8 @@ navbar {
   background-color: #f9f9f9;
   border-radius: 10px;
   overflow: hidden;
-  height:370px;
+  height:400px;
+  width:200px;
 }
 
 .comic-cover img {
@@ -320,7 +322,7 @@ navbar {
 }
 
 .comic-description {
-  font-size: 0.1em;
+  font-size: 0.3em;
   color: #666;
   margin-bottom: 5px;
 }
