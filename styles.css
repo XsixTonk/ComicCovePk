@@ -160,9 +160,21 @@ body {
   text-decoration: none; /* Remove default underline */
 }
 
-.comic-cards {
-  display: grid;
+.container {
+  max-width: 100%;
+  max-height:auto;
+  margin: 0 auto;
+  padding: 0 20px;
+  display:grid;
   grid-template-columns: 5fr 1fr; /* Adjust the widths as needed */
+}
+
+
+.comic-cards {
+  width:100;
+  height:auto;
+  display:flex;
+  flex-direction:row;
   gap: 20px; /* Adjust the gap between grid items */
 }
 
@@ -247,8 +259,10 @@ body {
     padding: 8px 16px; /* Adjust padding for smaller screens */
   }
   .comic-cards {
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Display three columns */
-    gap: 20px; /* Adjust the gap between grid items */
+    width:100;
+  height:auto;
+  display:flex;
+  flex-direction:row;
   }
 
   /* Additional styles specific to smaller screens can be added here */
