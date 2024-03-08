@@ -153,6 +153,7 @@ body {
   text-align: center;
   color: white;
   padding: 20px; /* Adjust padding as needed */
+  
 }
 
 .footer-container a {
@@ -166,7 +167,7 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   display:grid;
-  grid-template-columns: 5fr 1fr; /* Adjust the widths as needed */
+  grid-template-columns: repeat(5 ,1fr); /* Adjust the widths as needed */
 }
 
 
@@ -266,7 +267,7 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   display:grid;
-  grid-template-columns: 5fr 1fr; /* Adjust the widths as needed */
+  grid-template-columns: repeat(2,220px); /* Adjust the widths as needed */
 }
 
 
@@ -282,7 +283,6 @@ body {
   background-color: #f9f9f9;
   border-radius: 10px;
   overflow: hidden;
-  width:220px;
   height:150px;
 }
 
@@ -292,21 +292,16 @@ body {
 }
 
 .comic-title {
-  font-size: 1.2em;
+  font-size: 0.8em;
   margin: 10px 0;
 }
 
 .comic-description {
-  font-size: .5em;
+  font-size: 0.5em;
   color: #666;
   margin-bottom: 10px;
 }
-  .comic-cards {
-    width:100;
-  height:auto;
-  display:flex;
-  flex-direction:row;
-  }
+  
 
   /* Additional styles specific to smaller screens can be added here */
 }
