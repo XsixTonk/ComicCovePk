@@ -265,7 +265,6 @@ body {
 .container{
   max-width: 100%;
   max-height:auto;
-  margin: 0 auto;
   display:grid;
   grid-template-columns: repeat(2,220px); /* Adjust the widths as needed */
 }
@@ -283,7 +282,7 @@ body {
   background-color: #f9f9f9;
   border-radius: 10px;
   overflow: hidden;
-  height:300px;
+  height:370px;
 }
 
 .comic-cover img {
@@ -293,13 +292,13 @@ body {
 
 .comic-title {
   font-size: 0.8em;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .comic-description {
-  font-size: 0.5em;
+  font-size: 0.1em;
   color: #666;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
   
 
