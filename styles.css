@@ -261,29 +261,30 @@ body {
     font-size: 1em; /* Adjust font size for smaller screens */
     padding: 8px 16px; /* Adjust padding for smaller screens */
   }
+  
 .container{
   max-width: 100%;
   max-height:auto;
   margin: 0 auto;
   padding: 0 20px;
   display:grid;
-  grid-template-columns: repeat(2,220px); /* Adjust the widths as needed */
+  grid-template-columns: repeat(2,180px); /* Adjust the widths as needed */
 }
 
 
 .comic-cards {
-  width:100;
+  width:100%;
   height:auto;
   display:flex;
   flex-direction:row;
-  gap: 20px; /* Adjust the gap between grid items */
+  gap: 5px; /* Adjust the gap between grid items */
 }
 
 .comic-card {
   background-color: #f9f9f9;
   border-radius: 10px;
   overflow: hidden;
-  height:150px;
+  height:220px;
 }
 
 .comic-cover img {
